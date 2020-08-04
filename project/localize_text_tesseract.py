@@ -50,8 +50,3 @@ for i in range(0, len(results["text"])):
 # show the output image
 cv2.imshow("Image", image)
 cv2.waitKey(0)
-
-## to activate environment, do source env/bin/activate
-## to get out of virtual environment, do deactivate
-## to delete the environment, rm -rf env
-## https://www.pyimagesearch.com/2020/05/25/tesseract-ocr-text-localization-and-detection/
